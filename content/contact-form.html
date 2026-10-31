@@ -1,0 +1,37 @@
+<p class="lead"><strong>Please fill in the form below or call <a href="tel:+13862889689">Joe Moraca 386-288-9689</a></strong></p>
+
+<div class="form-placeholder">
+  <p><strong>This form is not connected yet.</strong> The previous site delivered messages through WordPress. This static copy has no database and no mail server, so nothing typed here is saved or sent.</p>
+  <p>Please call Joe Moraca at <a href="tel:+13862889689">386-288-9689</a>. These fields match the old form so they can be connected to a form service later.</p>
+</div>
+
+<form class="contact-form" id="contact-form" action="" method="post">
+  <fieldset>
+    <legend>Name <span class="required">*</span></legend>
+    <div class="name-row">
+      <label class="name-field">
+        <span class="sub-label">First</span>
+        <input type="text" name="first" autocomplete="given-name" required>
+      </label>
+      <label class="name-field">
+        <span class="sub-label">Last</span>
+        <input type="text" name="last" autocomplete="family-name" required>
+      </label>
+    </div>
+  </fieldset>
+  <label>
+    <span>Email <span class="required">*</span></span>
+    <input type="email" name="email" autocomplete="email" required>
+  </label>
+  <label>
+    <span>Comment or Message</span>
+    <textarea name="message"></textarea>
+  </label>
+  <div class="hp" aria-hidden="true">
+    <label>Name Message or
+      <input type="text" name="company" tabindex="-1" autocomplete="off">
+    </label>
+  </div>
+  <button type="submit">Submit</button>
+  <p id="form-status" class="form-status" role="status"></p>
+</form>

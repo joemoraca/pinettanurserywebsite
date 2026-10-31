@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Form – Pinetta Nursery</title>
+<meta name="description" content="Fruit, Nuts and Flowers for North Florida. Pinetta Nursery.">
+<link rel="icon" href="../images/logo.png" type="image/png">
+<link rel="apple-touch-icon" href="../images/logo.png">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="brand">
+    <a class="logo-link" href="../"><img src="../images/logo.png" alt="Pinetta Nursery" width="533" height="533"></a>
+  </div>
+  <div class="brand-text">
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Navigation">
+      <a href="../for-sale/">For Sale</a><a href="../about-us/">About</a><a href="../food-forests/">Food Forests</a><a href="../contact-form/" aria-current="page">Contact</a>
+    </nav>
+    <p class="tagline">Fruit, Nuts &amp; Flowers for North Florida</p>
+  </div>
+</header>
+<noscript><style>@media (max-width: 781px) { .site-nav { display: flex !important; flex-direction: column; align-items: center; } }</style></noscript>
+<main id="main">
+<h1 class="center">Contact Form</h1>
+<p class="lead"><strong>Please fill in the form below or call <a href="tel:+13862889689">Joe Moraca 386-288-9689</a></strong></p>
+
+<div class="form-placeholder">
+  <p><strong>This form is not connected yet.</strong> The previous site delivered messages through WordPress. This static copy has no database and no mail server, so nothing typed here is saved or sent.</p>
+  <p>Please call Joe Moraca at <a href="tel:+13862889689">386-288-9689</a>. These fields match the old form so they can be connected to a form service later.</p>
+</div>
+
+<form class="contact-form" id="contact-form" action="" method="post">
+  <fieldset>
+    <legend>Name <span class="required">*</span></legend>
+    <div class="name-row">
+      <label class="name-field">
+        <span class="sub-label">First</span>
+        <input type="text" name="first" autocomplete="given-name" required>
+      </label>
+      <label class="name-field">
+        <span class="sub-label">Last</span>
+        <input type="text" name="last" autocomplete="family-name" required>
+      </label>
+    </div>
+  </fieldset>
+  <label>
+    <span>Email <span class="required">*</span></span>
+    <input type="email" name="email" autocomplete="email" required>
+  </label>
+  <label>
+    <span>Comment or Message</span>
+    <textarea name="message"></textarea>
+  </label>
+  <div class="hp" aria-hidden="true">
+    <label>Name Message or
+      <input type="text" name="company" tabindex="-1" autocomplete="off">
+    </label>
+  </div>
+  <button type="submit">Submit</button>
+  <p id="form-status" class="form-status" role="status"></p>
+</form>
+</main>
+<footer class="site-footer">
+  <p class="site-title"><a href="../">Pinetta Nursery</a></p>
+  <p class="footer-note">Fruit, Nuts &amp; Flowers for North Florida</p>
+</footer>
+<script src="../js/site.js"></script>
+</body>
+</html>
